@@ -7,8 +7,7 @@ git clone https://github.com/tagapote/spring-boot.git -b main
   
 3.インポート出来たら、以下を実行して動作確認をする  
 spring-bootを右クリック ⇒ 実行 ⇒ Spring Boot アプリケーション  
-コンソールに「INFO 35836 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in X ms」が出たら以下のURLにアクセスして  
-画面に「初期メッセージ」が表示されれば問題なし  
+起動後、画面に「初期メッセージ」という文言が表示されれば問題なし  
 http://localhost:8080/hello/world  
   
 4.現在のgitの（リモート）リポジトリがこちらに向いているので、自身で作成したものに移動する
