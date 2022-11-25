@@ -1,5 +1,5 @@
 # spring-boot（学習用）
-1.まずは以下のコマンドでクローンする  
+1.まずは以下のコマンドでクローンする（eclipseのworkspaceに）  
 git clone https://github.com/tagapote/spring-boot.git -b main
 
 2.クローンしてきたプロジェクトをeclipseにインポートする  
