@@ -18,7 +18,7 @@ public class HelloController extends AbstractController{
 		HelloInput input = new HelloInput();
 		input.setmessage("初期メッセージ");
 		HelloOutput output = helloService.execute(input);
-		model.addAttribute("value", output);
+		model.addAttribute("value", output.getMessage());
 		return "hello";
 	}
 }
