@@ -10,7 +10,7 @@ spring-bootを右クリック ⇒ 実行 ⇒ Spring Boot アプリケーショ�
 起動後、画面に「初期メッセージ」という文言が表示されれば問題なし  
 http://localhost:8080/hello/world  
   
-4.現在のgitの（リモート）リポジトリがこちらに向いているので、自身で作成したものに移動する
+4.現在のgitの（リモート）リポジトリがこちらに向いているので、自身で作成したものに移動する  
 git remote set-url origin {new url}  
 ※予め「spring-boot」といったリポジトリを作成しておくと良い  
 ※git remote -v で確認可能  
